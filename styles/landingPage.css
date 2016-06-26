@@ -6821,7 +6821,7 @@ a > .course {
 .course {
   padding: 10px;
   background-position: left top;
-  background-size: contain;
+  background-size: auto;
   background-repeat: no-repeat;
   background-image: url('../images/icons/Students-yellow.png');
 }
