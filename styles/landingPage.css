@@ -6783,6 +6783,17 @@ body {
 
 /* Custom markup STARTS */
 
+.navbar-brand > img {
+  height: 1em;
+  display: inline;
+}
+
+#coverbox img {
+  height: 2em;
+  margin: 0%;
+  padding: 0%;
+}
+
 #coverbox {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 20px;
@@ -6790,6 +6801,8 @@ body {
 }
 #coverbox > h1 {
     color: #E5B650;
+    margin-top: 0;
+    padding-top: 0;
     /* -webkit-text-stroke: 0.3px #368763; */
 }
 .section {
@@ -6843,23 +6856,23 @@ a > .course {
 }
 
 #pregnancy .course > img {
-  background-image: url('../images/POS_placeholder_vr04.png')
+  background-image: url('../images/placeholders/Pregnancy.png')
 }
 
 #baby .course > img {
-  background-image: url('../images/POS_placeholder_vr04.png')
+  background-image: url('../images/placeholders/Baby.png')
 }
 
 #toddler .course > img {
-  background-image: url('../images/POS_placeholder_vr04.png')
+  background-image: url('../images/placeholders/Toddler.png')
 }
 
 #preschooler .course > img {
-  background-image: url('../images/POS_placeholder_vr04.png')
+  background-image: url('../images/placeholders/Preschooler.png')
 }
 
 #bigkid .course > img {
-  background-image: url('../images/POS_placeholder_vr04.png')
+  background-image: url('../images/placeholders/Bigkid.png')
 }
 
 /* Custom markup ENDS */
