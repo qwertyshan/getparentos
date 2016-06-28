@@ -6813,17 +6813,17 @@ body {
   margin-top: 0;
 }
 
-a > .course, .course1 {
+a > .course {
   text-decoration: none;
   color: #333333
 }
 
-.course, .course1 {
+.course {
   padding: 10px;
   margin-bottom: 30px;
 }
 
-.course:hover, .course1:hover {
+.course:hover {
   -webkit-box-shadow: 0px 0px 20px 5px rgba(221,221,221,1);
   -moz-box-shadow: 0px 0px 20px 5px rgba(221,221,221,1);
   box-shadow: 0px 0px 20px 5px rgba(221,221,221,1);
@@ -6835,26 +6835,31 @@ a > .course, .course1 {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: 0 0;
-  background-image: url('../images/pregnancy-color.png')
 }
 
 .course:hover > img {
   background-repeat: no-repeat;
   background-position: 0 100%;
-  background-image: url('../images/pregnancy-color.png')
 }
 
-.course1 > img {
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-image: url('../images/pregnancy-gray.png')
+#pregnancy .course > img {
+  background-image: url('../images/POS_placeholder_vr04.png')
 }
 
-.course1:hover > img {
-  background-repeat: no-repeat;
-  background-position: 0 100%;
-  background-image: url('../images/pregnancy-gray.png')
+#baby .course > img {
+  background-image: url('../images/POS_placeholder_vr04.png')
+}
+
+#toddler .course > img {
+  background-image: url('../images/POS_placeholder_vr04.png')
+}
+
+#preschooler .course > img {
+  background-image: url('../images/POS_placeholder_vr04.png')
+}
+
+#bigkid .course > img {
+  background-image: url('../images/POS_placeholder_vr04.png')
 }
 
 /* Custom markup ENDS */
