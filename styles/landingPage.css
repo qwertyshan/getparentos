@@ -6788,6 +6788,21 @@ body {
   display: inline;
 }
 
+#background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-35%);
+    transform: translateX(-50%) translateY(-35%);
+    background: url(/cover/snapshots/Innocence.jpg) no-repeat;
+    background-size: cover;
+}
+
 #coverbox img {
   height: 2em;
   margin: 0%;
@@ -6795,7 +6810,7 @@ body {
 }
 
 #coverbox {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(199, 199, 199, 0.0);
   padding: 20px;
     border-radius: 5px;
 }
@@ -6806,15 +6821,21 @@ body {
     /* -webkit-text-stroke: 0.3px #368763; */
 }
 .section {
-  padding-top: 70px;
+  padding-top: 20px;
+}
+
+#info  {
+  padding-top: 30px;
 }
 
 #courseheader  {
+  padding-top: 30px;
   padding-bottom: 30px;
 }
 
 #subscribe {
-  padding-bottom: 70px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #courses {
