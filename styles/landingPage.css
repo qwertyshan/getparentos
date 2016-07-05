@@ -6788,6 +6788,10 @@ body {
   display: inline;
 }
 
+.cover {
+  height: 80%;
+}
+
 #background {
     position: absolute;
     top: 50%;
